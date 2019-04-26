@@ -1,10 +1,15 @@
 package mode1;
 
+import mode1.fly.impl.FlyWithWings;
+
 public class Test {
     public static void main(String[] args) {
         DonaldsDuck donaldsDuck = new DonaldsDuck();
         donaldsDuck.performFly();
-        donaldsDuck.display();
-        donaldsDuck.swim();
+        //动态地让鸭子实现飞的功能
+        donaldsDuck.setFlyBehavior(new FlyWithWings());
+        donaldsDuck.performFly();
+//        donaldsDuck.display();
+//        donaldsDuck.swim();
     }
 }

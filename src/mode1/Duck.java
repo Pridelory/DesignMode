@@ -30,4 +30,12 @@ public abstract class Duck {
     public void performFly() {
         flyBehavior.fly();
     }
+
+    /**
+     * 动态地设置鸭子的飞行功能（运行时设置 没有写死）
+     * @param flyBehavior
+     */
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
+        this.flyBehavior = flyBehavior;
+    }
 }

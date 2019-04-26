@@ -1,6 +1,6 @@
 package mode1;
 
-import mode1.fly.impl.FlyWithWings;
+import mode1.fly.impl.FlyNoWay;
 
 /**
  * 唐老鸭
@@ -9,7 +9,8 @@ import mode1.fly.impl.FlyWithWings;
 public class DonaldsDuck extends Duck {
 
     public DonaldsDuck() {
-        flyBehavior = new FlyWithWings();
+        //一开始都不会飞
+        flyBehavior = new FlyNoWay();
     }
 
     @Override
