@@ -14,6 +14,7 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
 
     public CurrentConditionsDisplay(Observable observable) {
         this.observable = observable;
+        //向主题类注册
         observable.addObserver(this);
     }
 
