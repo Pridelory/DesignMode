@@ -1,7 +1,7 @@
-package model4.simpleFactory.storeFactory;
+package model4.factoryMethod.storeFactory;
 
-import model4.simpleFactory.pizza.NYStyleCheesePizza;
-import model4.simpleFactory.pizza.Pizza;
+import model4.factoryMethod.pizza.NYStyleCheesePizza;
+import model4.factoryMethod.pizza.Pizza;
 
 /**
  * 纽约披萨工厂

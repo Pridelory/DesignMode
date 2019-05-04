@@ -1,4 +1,4 @@
-package model4.simpleFactory.pizza;
+package model4.factoryMethod.pizza;
 
 /**
  * 芝加哥风味披萨
