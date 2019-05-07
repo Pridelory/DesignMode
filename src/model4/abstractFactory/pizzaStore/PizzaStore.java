@@ -1,6 +1,6 @@
-package model4.factoryMethod.storeFactory;
+package model4.abstractFactory.pizzaStore;
 
-import model4.factoryMethod.pizza.Pizza;
+import model4.abstractFactory.pizza.Pizza;
 
 /**
  * pizza工厂的抽象类
