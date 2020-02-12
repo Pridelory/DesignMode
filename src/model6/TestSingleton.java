@@ -8,10 +8,14 @@ public class TestSingleton {
 //        System.out.println(instance == instance1);
 
         //测试懒汉式
-        Singleton2 uniqueInstance = Singleton2.getUniqueInstance();
-        Singleton2 uniqueInstance1 = Singleton2.getUniqueInstance();
-        System.out.println(uniqueInstance == uniqueInstance1);
+//        Singleton2 uniqueInstance = Singleton2.getUniqueInstance();
+//        Singleton2 uniqueInstance1 = Singleton2.getUniqueInstance();
+//        System.out.println(uniqueInstance == uniqueInstance1);
 
-
+        Thread t1 = new Thread(new ExectorThread());
+        Thread t2 = new Thread(new ExectorThread());
+        t1.start();
+        t2.start();
+        System.out.println("End");
     }
 }
