@@ -5,6 +5,7 @@ import model5.interfaces.Animal;
 import model5.interfaces.impl.Dog;
 import model5.interfaces.impl.Tank;
 import model5.interfaces.Moveable;
+import sun.misc.ProxyGenerator;
 import sun.tools.asm.CatchData;
 
 import java.lang.reflect.Proxy;
