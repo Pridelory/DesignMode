@@ -6,7 +6,7 @@ import model3.absstactClass.CondimentDecorator;
 /**
  * 摩卡配料
  *
- * 装饰着
+ * 装饰者
  */
 public class Mocha extends CondimentDecorator{
 

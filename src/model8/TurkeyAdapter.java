@@ -9,6 +9,7 @@ import model8.interfaces.Turkey;
  */
 public class TurkeyAdapter implements Duck{
 
+    // Adaptee
     Turkey turkey;
 
     public TurkeyAdapter(Turkey turkey) {

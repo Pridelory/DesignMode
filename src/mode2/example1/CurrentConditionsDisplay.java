@@ -4,8 +4,6 @@ import mode2.GeneralInterface.DisplayElement;
 import mode2.GeneralInterface.Observer;
 import mode2.GeneralInterface.Subject;
 
-import java.util.Observable;
-
 /**
  * 告布板 -- 当前天气
  */
